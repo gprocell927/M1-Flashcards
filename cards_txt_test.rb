@@ -3,6 +3,7 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require_relative 'deck.rb'
 require_relative 'card.rb'
+require_relative 'cards-text'
 
 class CardGeneratorTest < Minitest::Test
 
@@ -12,8 +13,7 @@ class CardGeneratorTest < Minitest::Test
     card_3 = Card.new("What is Gabi's middle name?", "danger")
     card_4 = Card.new("What is your quest?", "to seek the holy grail")
     deck = Deck.new([card_1, card_2, card_3, card_4])
-    assert_equal [card_1, card_2, card_3, card_4], deck.cards
-
+    assert_equal "cards.txt", filename
   end
 
 
