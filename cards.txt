@@ -1,0 +1,4 @@
+What is 5 + 5?, 10
+What is Gabi's favourite animal?, sloth
+What is Gabi's middle name?, danger
+What is your quest?, to seek the holy grail
